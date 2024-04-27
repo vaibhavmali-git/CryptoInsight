@@ -17,20 +17,20 @@ function Footer() {
   return (
     <div className="footer">
       <h2 className="logo" onClick={() => topFunction()}>
-        CryptoTracker<span>.</span>
+        CryptoInsight<span>.</span>
       </h2>
       <div className="social-links">
-        <a href="mailto:malivaibhav.7620@gmail.com" target='_blank'>
+        <a href="mailto:malivaibhav.7620@gmail.com" target="_blank">
           <SiMaildotru className="social-link" size={19} />
         </a>
 
-        <a href="https://www.linkedin.com/in/vaibhavmali-li/" target='_blank'>
+        <a href="https://www.linkedin.com/in/vaibhavmali-li/" target="_blank">
           <BsLinkedin className="social-link" size={18} />
         </a>
-        <a href="https://github.com/vaibhavmali-git" target='_blank'>
+        <a href="https://github.com/vaibhavmali-git" target="_blank">
           <BsGithub className="social-link" size={19} />
         </a>
-        <a href="https://twitter.com/vaibhavmali_01" target='_blank'>
+        <a href="https://twitter.com/vaibhavmali_01" target="_blank">
           <BsTwitter className="social-link" size={19.6} />
         </a>
       </div>

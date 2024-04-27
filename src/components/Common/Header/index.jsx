@@ -41,7 +41,7 @@ function Header() {
   return (
     <div className="header">
       <h1>
-      MarketInsight<span style={{ color: "var(--blue)" }}>.</span>
+      CryptoInsight<span style={{ color: "var(--blue)" }}>.</span>
       </h1>
       <div className="links">
         <Switch checked={darkMode} onClick={() => changeMode()} />
